@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity {
                 Double tot;
                 Double amount = Double.parseDouble(ed1.getText().toString());
 
-                if (sp1.getSelectedItem().toString() == "US DOLLAR" && sp2.getSelectedItem().toString() == "NGA"){
-                    tot = amount * 460;
+                if (sp1.getSelectedItem().toString() == "NGA" && sp2.getSelectedItem().toString() == "US DOLLAR"){
+                    tot = amount / 460;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "NGA" && sp2.getSelectedItem().toString() == "EURO"){
-                    tot = amount * 505.50;
+                    tot = amount / 505.50;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "NGA" && sp2.getSelectedItem().toString() == "BRITISH POUND STERLING"){
-                    tot = amount * 572.66;
+                    tot = amount / 572.66;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "USA" && sp2.getSelectedItem().toString() == "US DOLLAR"){
                     tot = amount;
