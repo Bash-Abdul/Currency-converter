@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                     tot = amount * 8.55;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "JPN" && sp2.getSelectedItem().toString() == "US DOLLAR"){
-                    tot = amount * 1833.94;
+                    tot = amount * 134.61;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "JPN" && sp2.getSelectedItem().toString() == "EURO"){
                     tot = amount * 146.98;
@@ -169,22 +169,22 @@ public class MainActivity extends AppCompatActivity {
                     tot = amount * 218.735;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "AR" && sp2.getSelectedItem().toString() == "US DOLLAR"){
-                    tot = amount * 94.783;
+                    tot = amount / 217.47;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "AR" && sp2.getSelectedItem().toString() == "EURO"){
-                    tot = amount * 115.334;
+                    tot = amount / 238.63;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "AR" && sp2.getSelectedItem().toString() == "BRITISH POUND STERLING"){
-                    tot = amount * 134.38;
+                    tot = amount / 270.60;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "BRA" && sp2.getSelectedItem().toString() == "US DOLLAR"){
-                    tot = amount * 4.94;
+                    tot = amount / 4.94;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "BRA" && sp2.getSelectedItem().toString() == "EURO"){
-                    tot = amount * 5.42;
+                    tot = amount / 5.42;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }else if (sp1.getSelectedItem().toString() == "BRA" && sp2.getSelectedItem().toString() == "BRITISH POUND STERLING"){
-                    tot = amount * 6.14;
+                    tot = amount / 6.14;
                     Toast.makeText(getApplicationContext(), tot.toString(), Toast.LENGTH_LONG).show();
                 }
             }
